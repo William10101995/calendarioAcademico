@@ -1,5 +1,6 @@
 import "./App.css";
 import Logo from "./images/LogoSoloBlanco.png";
+import pdf from "./assets/CalendarioAcademico.pdf";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaDiscord, FaCircle, FaCloudDownloadAlt } from "react-icons/fa";
 import Calendar from "rc-year-calendar";
@@ -63,6 +64,7 @@ function App() {
                   href="https://discord.gg/WqzsV6JXV6"
                   target="_blank"
                   rel="noreferrer"
+                  title="Discord de Renovacion Tecnologica"
                 >
                   <FaDiscord />
                 </a>
@@ -72,12 +74,18 @@ function App() {
                   href="https://www.instagram.com/rtecnologica"
                   target="_blank"
                   rel="noreferrer"
+                  title="Instagram de Renovacion Tecnologica"
                 >
                   <AiOutlineInstagram />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a
+                  href={pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Descargar Calendario"
+                >
                   <FaCloudDownloadAlt />
                 </a>
               </li>

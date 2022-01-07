@@ -45,6 +45,15 @@ export const dataSource = [
     desc: "Nos vemos en dos semanas!",
     color: feriado.receso,
     startDate: new Date(currentYear, 6, 18),
+    endDate: new Date(currentYear, 6, 23),
+  },
+  {
+    id: 4,
+    name: "Receso Invernal",
+    title: "🎉 Felices Vacaciones!",
+    desc: "Nos vemos en dos semanas!",
+    color: feriado.receso,
+    startDate: new Date(currentYear, 6, 25),
     endDate: new Date(currentYear, 6, 30),
   },
   {
@@ -263,17 +272,9 @@ export const dataSource = [
     startDate: new Date(currentYear, 9, 10),
     endDate: new Date(currentYear, 9, 10),
   },
+
   {
-    id: 31,
-    name: "Feriado",
-    title: "Dia Libre",
-    desc: "Hoy se conmemora el Dia de la Soberanía Nacional",
-    color: feriado.feriado,
-    startDate: new Date(currentYear, 10, 20),
-    endDate: new Date(currentYear, 10, 20),
-  },
-  {
-    id: 34,
+    id: 35,
     name: "Feriado",
     title: "Dia Libre",
     desc: "Feriado con Fines Turisticos",

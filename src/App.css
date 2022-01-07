@@ -1,38 +1,131 @@
+* {
+  list-style: none;
+}
 .App {
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header header header header"
+    ".      body      ";
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background-color: #f0811e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header h1 {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*Fila del centro*/
+.body {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Columna izquierda del body */
+.colizq {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 4rem 5px 1fr 0.5fr;
+  background-color: #f0811e;
+}
+
+.rayita {
+  background-color: white;
+  height: 2px;
+  width: 165px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.colizq h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Referencias del calendario*/
+.referencias {
+  text-align: left;
+}
+
+/*Referencias Items*/
+.referencias li {
+  color: white;
+  padding-bottom: 20px;
+}
+.manito1 {
+  padding-right: 5px;
+  color: #609c30;
+}
+.manito2 {
+  padding-right: 5px;
+  color: #e33914;
+}
+.manito3 {
+  padding-right: 5px;
+  color: #892b85;
+}
+.manito4 {
+  padding-right: 5px;
+  color: #0c5a8c;
+}
+
+/* Fila abajo de la columna izquierda */
+.footer {
+  background-color: #f0811e;
+}
+.footer-list {
+  padding: 0.5em;
+}
+.footer-list li {
+  display: inline;
+  font-size: 2em;
+  padding: 0.5em;
+}
+.footer-list a {
+  color: white;
+}
+
+.footer img {
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.footer h3 {
+  margin: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 1100px) {
+  .body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+  .colizq {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .header h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .referencias {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .referencias li {
+    display: inline;
+    padding-left: 20px;
   }
 }

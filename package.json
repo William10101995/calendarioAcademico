@@ -2,7 +2,7 @@
   "name": "calendario",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://William10101995.github.io",
+  "homepage": "https://William10101995.github.io/calendarioAcademico/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",

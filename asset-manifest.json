@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.55962df4.css",
-    "main.js": "/static/js/main.b1eadbad.js",
-    "static/js/787.0d515950.chunk.js": "/static/js/787.0d515950.chunk.js",
-    "static/media/CalendarioAcademico.pdf": "/static/media/CalendarioAcademico.e9729254be435d0e2f72.pdf",
-    "static/media/LogoSoloBlanco.png": "/static/media/LogoSoloBlanco.d6ecfe9cc1ec698dc8ff.png",
-    "index.html": "/index.html",
-    "main.55962df4.css.map": "/static/css/main.55962df4.css.map",
-    "main.b1eadbad.js.map": "/static/js/main.b1eadbad.js.map",
-    "787.0d515950.chunk.js.map": "/static/js/787.0d515950.chunk.js.map"
+    "main.css": "/calendarioAcademico/static/css/main.55962df4.css",
+    "main.js": "/calendarioAcademico/static/js/main.feba3cd1.js",
+    "static/js/787.0d515950.chunk.js": "/calendarioAcademico/static/js/787.0d515950.chunk.js",
+    "static/media/CalendarioAcademico.pdf": "/calendarioAcademico/static/media/CalendarioAcademico.e9729254be435d0e2f72.pdf",
+    "static/media/LogoSoloBlanco.png": "/calendarioAcademico/static/media/LogoSoloBlanco.d6ecfe9cc1ec698dc8ff.png",
+    "index.html": "/calendarioAcademico/index.html",
+    "main.55962df4.css.map": "/calendarioAcademico/static/css/main.55962df4.css.map",
+    "main.feba3cd1.js.map": "/calendarioAcademico/static/js/main.feba3cd1.js.map",
+    "787.0d515950.chunk.js.map": "/calendarioAcademico/static/js/787.0d515950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55962df4.css",
-    "static/js/main.b1eadbad.js"
+    "static/js/main.feba3cd1.js"
   ]
 }

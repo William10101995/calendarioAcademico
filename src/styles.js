@@ -13,6 +13,8 @@ export const Overlay = styled.div`
   align-items: ${(props) =>
     props.posicionModal ? props.posicionModal : "center"};
   justify-content: center;
+  @media (max-width: 425px) {
+    justify-content: left;
 `;
 
 export const ContenedorModal = styled.div`
@@ -23,6 +25,16 @@ export const ContenedorModal = styled.div`
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: ${(props) => (props.padding ? props.padding : "20px")};
+
+  @media (min-width: 320px) {
+    width: 200px;
+  }
+  @media (min-width: 375px) {
+    width: 260px;
+  }
+  @media (min-width: 425px) {
+    width: 300px;
+  }
 `;
 
 export const EncabezadoModal = styled.div`
@@ -93,5 +105,13 @@ export const Contenido = styled.div`
     width: 100%;
     vertical-align: top;
     border-radius: 3px;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 12px;
+    }
   }
 `;

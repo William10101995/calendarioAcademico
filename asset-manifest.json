@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/calendarioAcademico/static/css/main.55962df4.css",
-    "main.js": "/calendarioAcademico/static/js/main.feba3cd1.js",
+    "main.js": "/calendarioAcademico/static/js/main.d6df4c82.js",
     "static/js/787.0d515950.chunk.js": "/calendarioAcademico/static/js/787.0d515950.chunk.js",
-    "static/media/CalendarioAcademico.pdf": "/calendarioAcademico/static/media/CalendarioAcademico.e9729254be435d0e2f72.pdf",
+    "static/media/CalendarioAcademico.pdf": "/calendarioAcademico/static/media/CalendarioAcademico.d0c61f3c987275c3ad8f.pdf",
     "static/media/LogoSoloBlanco.png": "/calendarioAcademico/static/media/LogoSoloBlanco.d6ecfe9cc1ec698dc8ff.png",
     "index.html": "/calendarioAcademico/index.html",
     "main.55962df4.css.map": "/calendarioAcademico/static/css/main.55962df4.css.map",
-    "main.feba3cd1.js.map": "/calendarioAcademico/static/js/main.feba3cd1.js.map",
+    "main.d6df4c82.js.map": "/calendarioAcademico/static/js/main.d6df4c82.js.map",
     "787.0d515950.chunk.js.map": "/calendarioAcademico/static/js/787.0d515950.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55962df4.css",
-    "static/js/main.feba3cd1.js"
+    "static/js/main.d6df4c82.js"
   ]
 }

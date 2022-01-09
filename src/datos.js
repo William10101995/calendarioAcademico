@@ -59,7 +59,7 @@ export const dataSource = [
   {
     id: 6,
     name: "Inicio de Clases",
-    title: "🤌🏾 Que comience el juego nuevamente!",
+    title: "👻 Que comience el juego nuevamente!",
     desc: "",
     color: feriado.inicio,
     startDate: new Date(currentYear, 7, 8),

@@ -2,7 +2,7 @@
   "name": "calendario",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://William10101995.github.io/calendarioAcademico/",
+  "homepage": "https://calendarioacademico.xyz/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo williamlopez.com.ar > ./dist/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

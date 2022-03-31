@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && echo williamlopez.com.ar > ./dist/CNAME",
+    "predeploy": "npm run build && echo calendarioacademico.xyz > ./dist/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

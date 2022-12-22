@@ -37,21 +37,28 @@ function App() {
                   {" "}
                   <FaCircle />{" "}
                 </span>{" "}
-                Feriados
+                Receso Invernal
               </li>
               <li>
                 <span className="manito3">
                   {" "}
                   <FaCircle />{" "}
                 </span>{" "}
-                Mesas de Examenes
+                Feriados
               </li>
               <li>
                 <span className="manito4">
                   {" "}
                   <FaCircle />{" "}
                 </span>{" "}
-                Receso Invernal
+                Mesas con suspensión
+              </li>
+              <li>
+                <span className="manito5">
+                  {" "}
+                  <FaCircle />{" "}
+                </span>{" "}
+                Mesas sin suspensión
               </li>
             </ul>
           </div>
@@ -97,7 +104,7 @@ function App() {
             language="es"
             style="background"
             dataSource={dataSource}
-            year={2022}
+            year={2023}
             displayHeader={true}
             roundRangeLimits={false}
             enableContextMenu={true}

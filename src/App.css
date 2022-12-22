@@ -27,7 +27,7 @@
 /*Fila del centro*/
 .body {
   display: grid;
-  grid-template-columns: 0.2fr 1fr;
+  grid-template-columns: 0.22fr 1fr;
   background-color: white;
 }
 
@@ -59,24 +59,29 @@
 
 /*Referencias Items*/
 .referencias li {
+  text-align: left;
   color: white;
   padding-bottom: 20px;
 }
 .manito1 {
   padding-right: 5px;
-  color: #609c30;
+  color: #76de78;
 }
 .manito2 {
   padding-right: 5px;
-  color: #e33914;
+  color: #ff6862;
 }
 .manito3 {
   padding-right: 5px;
-  color: #892b85;
+  color: #fbfd98;
 }
 .manito4 {
   padding-right: 5px;
-  color: #0c5a8c;
+  color: #85b5f5;
+}
+.manito5 {
+  padding-right: 5px;
+  color: #fbcbe0;
 }
 
 /* Fila abajo de la columna izquierda */
@@ -126,7 +131,7 @@
     margin-right: auto;
   }
   .referencias li {
-    display: inline;
-    padding-left: 20px;
+    display: flex;
+    justify-content: left;
   }
 }
